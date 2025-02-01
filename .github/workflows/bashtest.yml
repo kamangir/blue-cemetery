@@ -37,4 +37,6 @@ jobs:
           echo "DATABRICKS_HOST: $DATABRICKS_HOST"
           echo "DATABRICKS_TOKEN: $DATABRICKS_TOKEN"
 
-          ./.github/workflows/bashtest.sh blue_plugin
+          ./.github/workflows/bashtest.sh blue_cemetery
+
+
