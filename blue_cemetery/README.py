@@ -11,7 +11,7 @@ items = [
         experiment_name,
         experiment.get(
             "marquee",
-            "https://github.com/kamangir/assets/raw/main/blue-cemetery/marquee.png?raw=true",
+            "https://github.com/kamangir/assets/raw/main/blue-plugin/marquee.png?raw=true",
         ),
         experiment["url"],
         experiment.get("title", ""),

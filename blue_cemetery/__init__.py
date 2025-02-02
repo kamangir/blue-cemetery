@@ -4,7 +4,7 @@ ICON = "🪦"
 
 DESCRIPTION = f"{ICON} An AI cemetery."
 
-VERSION = "3.215.1"
+VERSION = "3.216.1"
 
 REPO_NAME = "blue-cemetery"
 
