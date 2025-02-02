@@ -3,16 +3,20 @@ import os
 from blue_objects import file, README
 
 from blue_cemetery import NAME, VERSION, ICON, REPO_NAME
+from blue_cemetery.list import list_of_experiments
 
 
 items = [
-    "{}[`{}`](#) [![image]({})](#) {}".format(
-        ICON,
-        f"feature {index}",
-        "https://github.com/kamangir/assets/raw/main/blue-cemetery/marquee.png?raw=true",
-        f"description of feature {index} ...",
+    "[`{}`](#) [![image]({})]({}) {}".format(
+        experiment_name,
+        experiment.get(
+            "marquee",
+            "https://github.com/kamangir/assets/raw/main/blue-cemetery/marquee.png?raw=true",
+        ),
+        experiment["url"],
+        experiment.get("title", ""),
     )
-    for index in range(1, 4)
+    for experiment_name, experiment in list_of_experiments.items()
 ]
 
 
@@ -25,6 +29,3 @@ def build():
         VERSION=VERSION,
         REPO_NAME=REPO_NAME,
     )
-
-
-
