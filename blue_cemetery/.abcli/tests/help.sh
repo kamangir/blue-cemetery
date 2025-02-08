@@ -17,13 +17,6 @@ function test_blue_cemetery_help() {
         "@cemetery test" \
         "@cemetery test list" \
         \
-        "@cemetery browse" \
-        "@cemetery leaf" \
-        "@cemetery node" \
-        "@cemetery node leaf" \
-        \
-        "@cemetery task" \
-        \
         "blue_cemetery"; do
         abcli_eval ,$options \
             abcli_help $module
@@ -34,6 +27,3 @@ function test_blue_cemetery_help() {
 
     return 0
 }
-
-
-
