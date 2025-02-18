@@ -35,6 +35,12 @@ items = README.Items(
             "marquee": "https://github.com/kamangir/openai-commands/blob/main/assets/completion_i2i_function.png?raw=true",
             "url": "./blue_sandbox/cemetery/code_generation",
         },
+        {
+            "name": "scripts",
+            "description": "legacy mechanisms replaced with `@docker eval - <command>` and `@batch eval - <command>`.",
+            "marquee": "https://github.com/kamangir/assets/blob/main/nbs/3x4.jpg?raw=true",
+            "url": "./scripts",
+        },
     ]
 )
 
