@@ -10,30 +10,30 @@ items = README.Items(
         {
             "name": "sagesemseg",
             "description": "A SemSeg (Semantic Segmenter) trained and deployed on AWS Sagemaker.",
-            "url": "./blue_sandbox/sagesemseg/README.md",
+            "url": "./blue_cemetery/cemetery/sagesemseg",
             "marquee": "https://github.com/kamangir/assets/blob/main/blue-sandbox/sagesemseg-predict.png?raw=true",
         },
         {
             "name": "@damages",
             "description": "Satellite imagery damage assessment workflow",
-            "url": "./blue_sandbox/microsoft_building_damage_assessment/README.md",
+            "url": "./blue_cemetery/cemetery/microsoft_building_damage_assessment",
             "marquee": "https://github.com/kamangir/assets/raw/main/blue-sandbox/Maui-Hawaii-fires-Aug-23-ingest-2025-01-10-qqJqhm.png?raw=true",
         },
         {
             "name": "VisuaLyze",
             "description": 'How about calling it "VisuaLyze"? ... - OpenAI',
-            "url": "./blue_sandbox/VisuaLyze",
+            "url": "./blue_cemetery/cemetery/VisuaLyze",
             "marquee": "https://github.com/kamangir/openai-commands/assets/1007567/7c0ed5f7-6941-451c-a17e-504c6adab23f",
         },
         {
             "name": "gpt",
             "description": "co-authored with ChapGPT.",
-            "url": "./blue_sandbox/cemetery/gpt",
+            "url": "./blue_cemetery/cemetery/gpt",
         },
         {
             "name": "code generation",
             "marquee": "https://github.com/kamangir/openai-commands/blob/main/assets/completion_i2i_function.png?raw=true",
-            "url": "./blue_sandbox/cemetery/code_generation",
+            "url": "./blue_cemetery/cemetery/code_generation",
         },
         {
             "name": "scripts",
