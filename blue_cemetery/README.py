@@ -4,12 +4,11 @@ from blue_objects import file, README
 
 from blue_cemetery import NAME, VERSION, ICON, REPO_NAME
 
-xxx
 
 items = README.Items(
     [
         {
-            "name": "sagesemseg zzzzz",
+            "name": "sagesemseg",
             "description": "A SemSeg (Semantic Segmenter) trained and deployed on AWS Sagemaker.",
             "url": "./blue_cemetery/cemetery/sagesemseg",
             "marquee": "https://github.com/kamangir/assets/blob/main/blue-sandbox/sagesemseg-predict.png?raw=true",
