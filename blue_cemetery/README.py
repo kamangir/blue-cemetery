@@ -4,6 +4,7 @@ from blue_objects import file, README
 
 from blue_cemetery import NAME, VERSION, ICON, REPO_NAME
 
+xxx
 
 items = README.Items(
     [
